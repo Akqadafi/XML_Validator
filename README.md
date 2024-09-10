@@ -13,27 +13,23 @@ Drag-and-Drop Support (optional): Placeholder for drag-and-drop file selection (
 Prerequisites
 To run the application, you'll need to install the following dependencies:
 
-bash
-Copy code
 pip install lxml
+
 How to Run
 Clone the repository:
-
-bash
-Copy code
 git clone https://github.com/your-username/xml-structure-validator.git
 cd xml-structure-validator
+
 Run the application:
-
-bash
-Copy code
 python xml_validator.py
-In the application window:
 
+In the application window:
 Use the Browse buttons to select the XML file to validate and the template XML file.
 (Optional) Select the Check Attributes and Check Values checkboxes to include attributes and content in the comparison.
 Click Validate XML to compare a single XML file or Validate Folder of XMLs to validate all XML files in a folder.
 Validation results will be displayed in a message box and logged into xml_validator.log.
+
+
 UI Components:
 XML File Path: Select the XML file to validate.
 Template XML File Path: Select the template XML file to compare against.
@@ -42,6 +38,8 @@ Check Values: Option to compare inner text values between tags.
 Validate XML: Button to validate the selected XML file.
 Validate Folder of XMLs: Button to validate all XML files in a selected folder.
 Progress Bar: Placeholder for displaying progress (especially useful for large files or folders).
+
+
 Example Use Cases:
 Validating XML data for a project against a specific template.
 Ensuring multiple XML documents in a folder are structurally consistent with a standard.
