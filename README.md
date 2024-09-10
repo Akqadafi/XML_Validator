@@ -10,10 +10,10 @@ Attribute and Content Comparison: Optionally check XML attributes and inner text
 Logging: Logs validation results to a file (xml_validator.log) for easy tracking.
 User-Friendly GUI: A simple interface for browsing files, setting options, and viewing results.
 Drag-and-Drop Support (optional): Placeholder for drag-and-drop file selection (requires additional setup).
+
 Prerequisites
 To run the application, you'll need to install the following dependencies:
-
-pip install lxml
+lxml
 
 How to Run
 Clone the repository:
@@ -44,9 +44,10 @@ Example Use Cases:
 Validating XML data for a project against a specific template.
 Ensuring multiple XML documents in a folder are structurally consistent with a standard.
 Verifying XML attributes and text content where applicable.
+
+
 Coming Features
 The current version of XML Structure Validator (v1.0.0) offers basic and essential features for validating XML structures. We are planning to implement the following features in upcoming releases:
-
 Progress Bar Integration: Full integration of the progress bar for long-running tasks, especially for batch validation of large XML files or folders.
 Drag-and-Drop Support: Add complete drag-and-drop functionality for file selection using external libraries like tkinterdnd2.
 XML Schema (XSD) Validation: Support for validating XML files against an XML Schema Definition (XSD) to ensure schema conformity.
@@ -55,6 +56,7 @@ Recursive Folder Validation: Allow validation of XML files in nested folders.
 Save Report Functionality: Add a feature to save validation results to a file (text, CSV, or HTML).
 XML Tree Visualization: Provide a feature to visualize the XML structure in a tree format.
 Command-Line Interface (CLI): Add a command-line interface for users who prefer validating files through the terminal.
+
 Contributing
 We welcome contributions to improve this tool. If you'd like to contribute, please follow these steps:
 
